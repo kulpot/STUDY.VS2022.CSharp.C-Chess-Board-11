@@ -76,11 +76,5 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ClassBoardModel\ClassBoardModel.csproj">
-      <Project>{99f2c575-c6ba-49e7-8920-67149ab38bdb}</Project>
-      <Name>ClassBoardModel</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
