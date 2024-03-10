@@ -49,6 +49,15 @@ namespace C__Chess_Board_10
 
             // make the panel a perfect square.
             panel1.Height = panel1.Width;
+
+            // nested loops. create buttons and print them to the screen.
+            for (int i = 0; i < myBoard.Size; i++)
+            {
+                for (int j = 0; j < myBoard.Size; j++)
+                {
+
+                }
+            }
         }
         //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
 
