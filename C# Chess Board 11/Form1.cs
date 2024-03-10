@@ -47,7 +47,7 @@ namespace C__Chess_Board_10
 
             int buttonSize = panel1.Width / myBoard.Size;
 
-            //
+            // make the panel a perfect square.
             panel1.Height = panel1.Width;
         }
         //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
