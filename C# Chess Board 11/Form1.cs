@@ -43,7 +43,12 @@ namespace C__Chess_Board_10
         //------------START------------- C# Chess Board 11 placebuttons ----------------------------------------------------
         private void populateGrid()
         {
-            throw new NotImplementedException();
+            // create buttons and plaze them into panel1
+
+            int buttonSize = panel1.Width / myBoard.Size;
+
+            //
+            panel1.Height = panel1.Width;
         }
         //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
 
