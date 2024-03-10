@@ -24,7 +24,10 @@ namespace C__Chess_Board_10
     public partial class Form1 : Form
     {
         //------------START------------- C# Chess Board 11 placebuttons ----------------------------------------------------
-        Board myBoard = new Board(8);
+        static Board myBoard = new Board(8);
+
+        public Button[,] btnGrid = new Button[myBoard.Size, myBoard.Size];
+
         //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
 
         public Form1()
