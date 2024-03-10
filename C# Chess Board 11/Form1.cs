@@ -65,6 +65,11 @@ namespace C__Chess_Board_10
                 }
             }
         }
+
+        private void Grid_Button_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
         //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
 
     }
