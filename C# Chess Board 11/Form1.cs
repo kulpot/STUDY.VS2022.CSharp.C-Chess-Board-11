@@ -24,8 +24,10 @@ namespace C__Chess_Board_10
     public partial class Form1 : Form
     {
         //------------START------------- C# Chess Board 11 placebuttons ----------------------------------------------------
+        // reference to the class Board. Contains the value of the board.
         static Board myBoard = new Board(8);
 
+        // 2D array of buttons whose values are determined by myBoard.
         public Button[,] btnGrid = new Button[myBoard.Size, myBoard.Size];
 
         //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
@@ -33,6 +35,17 @@ namespace C__Chess_Board_10
         public Form1()
         {
             InitializeComponent();
+            //------------START------------- C# Chess Board 11 placebuttons ----------------------------------------------------
+            populateGrid();
+            //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
+
         }
+        //------------START------------- C# Chess Board 11 placebuttons ----------------------------------------------------
+        private void populateGrid()
+        {
+            throw new NotImplementedException();
+        }
+        //------------END------------- C# Chess Board 11 placebuttons ----------------------------------------------------
+
     }
 }
