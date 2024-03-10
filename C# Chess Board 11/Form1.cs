@@ -59,6 +59,9 @@ namespace C__Chess_Board_10
 
                     btnGrid[i, j].Height = buttonSize;
                     btnGrid[i, j].Width = buttonSize;
+
+                    // add a click event to each button.
+                    btnGrid[i, j].Click += Grid_Button_Click;
                 }
             }
         }
