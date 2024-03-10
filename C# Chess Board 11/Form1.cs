@@ -62,6 +62,10 @@ namespace C__Chess_Board_10
 
                     // add a click event to each button.
                     btnGrid[i, j].Click += Grid_Button_Click;
+
+                    panel1.Controls.Add(btnGrid[i, j]);
+
+                    btnGrid[i, j].Location = new Point(i * buttonSize, j * buttonSize);
                 }
             }
         }
