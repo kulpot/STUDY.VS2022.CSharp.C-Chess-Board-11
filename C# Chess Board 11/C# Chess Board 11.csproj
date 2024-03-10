@@ -48,15 +48,6 @@
   <ItemGroup>
     <Compile Include="ClassBoardModel\Board.cs" />
     <Compile Include="ClassBoardModel\Cell.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.AssemblyInfo.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.GlobalUsings.g.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.AssemblyInfo.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.GlobalUsings.g.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\netcoreapp2.0\.NETCoreApp,Version=v2.0.AssemblyAttributes.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\netcoreapp2.0\ClassBoardModel.AssemblyInfo.cs" />
-    <Compile Include="ClassBoardModel\obj\Debug\netcoreapp2.0\ClassBoardModel.GlobalUsings.g.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,23 +66,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="ClassBoardModel\ClassBoardModel.csproj" />
-    <None Include="ClassBoardModel\obj\ClassBoardModel.csproj.nuget.dgspec.json" />
-    <None Include="ClassBoardModel\obj\ClassBoardModel.csproj.nuget.g.props" />
-    <None Include="ClassBoardModel\obj\ClassBoardModel.csproj.nuget.g.targets" />
-    <None Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.AssemblyInfoInputs.cache" />
-    <None Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.assets.cache" />
-    <None Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.csproj.CoreCompileInputs.cache" />
-    <None Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.sourcelink.json" />
-    <None Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.AssemblyInfoInputs.cache" />
-    <None Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.assets.cache" />
-    <None Include="ClassBoardModel\obj\Debug\net8.0\ClassBoardModel.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="ClassBoardModel\obj\Debug\netcoreapp2.0\ClassBoardModel.AssemblyInfoInputs.cache" />
-    <None Include="ClassBoardModel\obj\Debug\netcoreapp2.0\ClassBoardModel.assets.cache" />
-    <None Include="ClassBoardModel\obj\Debug\netcoreapp2.0\ClassBoardModel.csproj.AssemblyReference.cache" />
-    <None Include="ClassBoardModel\obj\Debug\netcoreapp2.0\ClassBoardModel.GeneratedMSBuildEditorConfig.editorconfig" />
-    <None Include="ClassBoardModel\obj\project.assets.json" />
-    <None Include="ClassBoardModel\obj\project.nuget.cache" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -106,17 +80,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClassBoardModel\obj\Debug\net5.0\ClassBoardModel.csproj.FileListAbsolute.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="ClassBoardModel\bin\Debug\net5.0\" />
     <Folder Include="ClassBoardModel\bin\Debug\net8.0\" />
     <Folder Include="ClassBoardModel\bin\Debug\netcoreapp2.0\" />
     <Folder Include="ClassBoardModel\bin\Release\net8.0\" />
-    <Folder Include="ClassBoardModel\obj\Debug\net5.0\refint\" />
-    <Folder Include="ClassBoardModel\obj\Debug\net5.0\ref\" />
-    <Folder Include="ClassBoardModel\obj\Debug\net8.0\refint\" />
-    <Folder Include="ClassBoardModel\obj\Debug\net8.0\ref\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

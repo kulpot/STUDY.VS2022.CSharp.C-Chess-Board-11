@@ -65,7 +65,10 @@ namespace C__Chess_Board_10
 
                     panel1.Controls.Add(btnGrid[i, j]);
 
+                    // set the location of the new button.
                     btnGrid[i, j].Location = new Point(i * buttonSize, j * buttonSize);
+
+                    btnGrid[i, j].Text = i + "|" + j;
                 }
             }
         }
