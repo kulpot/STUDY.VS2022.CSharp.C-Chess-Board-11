@@ -56,6 +56,9 @@ namespace C__Chess_Board_10
                 for (int j = 0; j < myBoard.Size; j++)
                 {
                     btnGrid[i, j] = new Button();
+
+                    btnGrid[i, j].Height = buttonSize;
+                    btnGrid[i, j].Width = buttonSize;
                 }
             }
         }
